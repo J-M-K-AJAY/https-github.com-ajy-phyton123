@@ -1,0 +1,47 @@
+#slicing in phyton
+
+a=("10","20","30","40","50")
+print(a[slice(3)])
+
+#negative index
+
+a=(10,20,30,40,50)
+print(a[-2])
+
+#concatention
+
+a="hello"
+b="world"
+print(a+b)
+
+#boolen
+
+print(10 > 1)
+print(20 == 50)
+print(bool(1 == 0))
+
+#list
+a=["apple" , "banana","mango"]
+print(a)
+
+#accessing list itemes 
+
+list=["apple", "banana", "mango"]
+print(list[2])
+
+#add list items
+
+list=["apple","banana","mango"]
+list.append("graphs")
+print(list)
+
+#removing the items
+list=["apple", "banana","mango"]
+list.pop(2)
+print(list)
+
+#change list items
+
+list=["apple", "banana", "mango"]
+list[1]="grapes"
+print(list)
